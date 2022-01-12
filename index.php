@@ -291,7 +291,7 @@
 
 					</tbody>
 				</table>
-				Descargar Formulario  <a href="http://10.12.1.145/formularios/Formulario_SRI_GP_2022.xlsx" target="_blank">Visit W3Schools!</a> 
+				<h3 align="center"> Descargar <a href="http://190.152.10.78/formularios/Formulario_SRI_GP_2022.xlsx" target="_blank">Formulario_SRI_GP_2022</a></h3> 
 
             </div>
         </div>
