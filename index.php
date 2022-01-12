@@ -291,43 +291,14 @@
 
 					</tbody>
 				</table>
+				Descargar Formulario  <a href="http://10.12.1.145/formularios/Formulario_SRI_GP_2022.xlsx" target="_blank">Visit W3Schools!</a> 
 
             </div>
         </div>
     </div>
 </div>
 	
-						<script>
-						//Función que realiza la sumas y calculos
-						function Suma() {
-						   var ingreso1 = document.gastosp.ingresoMensual.value;
-						   var ingreso2 = document.ventas.baseNoGraIva.value;
-						   var ingreso3 = document.ventas.porcRetIva.value;
-						   var ingreso4 = document.ventas.porcRetrenta.value;
-						   try{
-							  //Calculamos el número escrito:
-							  ingreso1 = (isNaN(parseFloat(ingreso1)))? 0 : parseFloat(ingreso1);
-							  ingreso2 = (isNaN(parseFloat(ingreso2)))? 0 : parseFloat(ingreso2);
-							  ingreso3 = (isNaN(parseFloat(ingreso3)))? 0 : parseFloat(ingreso3);
-							  ingreso4 = (isNaN(parseFloat(ingreso4)))? 0 : parseFloat(ingreso4);
-							  montoIva = parseFloat(Math.round(ingreso1 * 12) / 100).toFixed(2); 
-							  baseImpAir = ingreso1 + ingreso2;    
-							  totalC = ingreso1 + ingreso2 + parseFloat(montoIva);    
-							  document.ventas.montoIva.value = montoIva;
-							  document.ventas.baseImpAir.value = (baseImpAir).toFixed(2);
-							  document.ventas.totalC.value = (totalC).toFixed(2);
-							  valorRetIva = (ingreso3 *  parseFloat(montoIva)/100);
-							  document.ventas.valorRetIva.value = (valorRetIva).toFixed(2);
-							  valRetAir = (baseImpAir *  parseFloat(ingreso4)/100);
-							  document.ventas.valRetAir.value = (valRetAir).toFixed(2);
-							  totalRet= valorRetIva + valRetAir;
-							  document.ventas.totalRet.value = (totalRet).toFixed(2);
-						   }
-						   //Si se produce un error no hacemos nada
-						   catch(e) {}
-						}
-						</script>
-						
+					
 						
 
 
